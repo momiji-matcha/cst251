@@ -1,0 +1,54 @@
+
+body {
+  background-color: #AEC6CF;
+}
+
+h1, h2, h3 {
+  font-family: cursive, sans-serif;
+  color: #800020;
+  text-transform: uppercase;
+  padding: 0;
+  margin-bottom: 5px;
+  background-color: #E1C699;
+  border: solid;
+  border-width: thick;
+  border-color: #000000
+}
+
+h1:hover {
+  background-color: red;
+}
+
+h2:hover {
+  background-color: orange;
+}
+
+p {
+  background-color: #ffffff;
+  border: solid;
+  border-width: medium;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+#image {
+  width: 500px; 
+  float:right;
+  border: solid;
+  border-width: thick;
+}
+
+#image img {
+  transition: all 3s ease-out;
+}
+
+#image img:hover {
+  transform: scale(200%) translate(-30px, 5px);
+  transition: all 3s ease-in;}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}

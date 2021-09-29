@@ -1,0 +1,76 @@
+
+body {
+  background-color: #000080;
+  /* because the image is outside of our css folder,
+    we have to step back to our parent folder before looking in img */
+  background-image: url("../img/pacific_northwest.jpg");
+  background-size: cover;8
+}
+
+h1, h2, h3 {
+  text-transform: capitalize;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  font-family: helvetica;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+}
+
+img {
+    transition: all 3s ease-out;
+  }
+  img:hover {
+    transform: scale(150%) translate(-15px, 25px);
+    transition: all 3s ease-in;
+  }
+  img {
+  width: 35%;
+  max-width: 35%;
+}
+img {
+  width: 300px;
+}
+
+}
+
+
+
+h1 {
+  font-size: 3.5vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 1.5vw;
+}
+
+p {
+  margin-top: 0;
+}
+.major-section {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px #606060;
+  border-radius: 5px;
+  background-color: rgba(84, 83, 255, 0.27);
+}
+
+.minor-section {
+  padding: 1px  20px;
+  margin: 20px;
+  background-color: #DDCDC7;
+  outline-style: double;
+  outline-width: thick;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+nav a:hover {
+   text-decoration: underline;
+ }
