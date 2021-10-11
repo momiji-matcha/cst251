@@ -1,0 +1,21 @@
+aside {
+  position:sticky;
+  width: 300px;
+  top: 0px;
+  height: 33%;
+  background-color: #ffffff;
+  font-family: monospace;
+}
+
+h2 {
+  font-family:comic sans;
+  color: #000000  ;
+  background-color: #ffffff;
+  backg
+}
+
+p {
+  font-family:sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+}
