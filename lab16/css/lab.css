@@ -1,0 +1,71 @@
+
+body {
+  background-image: url("../img/birds1.png"), url("../img/kitty.png"), url("../img/ssun.png"), url("../img/wwind1.png"), url("../img/clouds1.jpg");
+  background-position: right top, right bottom, left top, left bottom, center;
+  background-size: 400px, 400px, 400px, 400px, cover;
+  background-repeat: no-repeat;
+}
+
+#challenges {
+}
+
+#chair {
+  column-count: 3;
+}
+
+#problems {
+  float:right;
+  width: 400px;
+  height: 250px;
+  transition: width 2s, height 4s;
+}
+
+#problems:hover {
+  width: 1000px;
+  height: 1000px;
+}
+
+#image {
+  animation: mymove 1000ms 0ms infinite linear;
+}
+
+@keyframes mymove {
+  0%{filter: hue-rotate(0deg);}
+  100%{filter: hue-rotate(360deg)}
+}
+
+
+#results {
+  float:right;
+  clear:right;
+}
+
+p {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: fantasy;
+}
+
+h2{
+  font-size: 31px;
+  font-family: fantasy;
+}
+
+h1, h2 {
+}
+
+
+.minor-section{
+  background-image: url("../img/water.jpg");
+  filter
+  background-size: cover;
+  box-shadow: 3px 3px 5px pink, -3px -3px 5px orange;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+}
