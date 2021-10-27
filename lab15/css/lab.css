@@ -38,9 +38,8 @@ h1, h2 {
 }
 
 .potato {
-  clear:left;
-  transform:translate(5000px 50000px);
-  height: 100xp;
+  float:right;
+  height: 100px;
   filter:grayscale(50%);
   filter: contrast(50%);
 }
