@@ -1,0 +1,52 @@
+footer {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 2px 2px 5px #ffffff;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+#top {
+  padding: 5px;
+  background-image: linear-gradient(#a6c8ff, #ffffff);
+}
+
+#bottom {
+  padding: 5px;
+  background-image: linear-gradient(#ffffff, #a6c8ff);
+  margin-top: 15px;
+}
+
+body {
+    background-image: url(../img/clouds.jpg);
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#images{
+  height: 50%;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 5px;
+  border-color: #0856d4;
+  border-width: thick;
+  border-style: solid;
+  margin-top: 15px;
+}

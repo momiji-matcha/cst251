@@ -8,12 +8,14 @@ nav {
   border-style: solid;
   border-color: orange;
   background-color: #ffe2ba;
+  line-height: 50px;
 }
 
 main {
   border-style: solid;
   border-color: yellow;
   background-color: #feffd9;
+  width: 69%;
 }
 
 section {
@@ -32,4 +34,10 @@ footer {
   border-style: solid;
   border-color: purple;
   background-color: #f6d1ff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-stretch;
 }

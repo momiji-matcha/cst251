@@ -8,12 +8,16 @@ nav {
   border-style: solid;
   border-color: orange;
   background-color: #ffe2ba;
+  float:left;
+  line-height: 50px;
 }
 
 main {
   border-style: solid;
   border-color: yellow;
   background-color: #feffd9;
+  float:left;
+  width: 76%;
 }
 
 section {
@@ -26,10 +30,13 @@ aside {
   border-style: solid;
   border-color: blue;
   background-color: #c9f3ff;
+  float:left;
+  line-height: 40px;
 }
 
 footer {
   border-style: solid;
   border-color: purple;
   background-color: #f6d1ff;
+  clear:both;
 }
